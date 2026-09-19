@@ -35,5 +35,5 @@ jobs:
       - name: Test health endpoint
         run: curl http://localhost:5000/health
 
-      -	name: Build Docker image
+      - name: Build Docker image
         run: docker build -t devops-project-2:test .
